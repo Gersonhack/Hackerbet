@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>watch</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+	<script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      <h1>matemática 150000 classe</h1>
+      <p>esse módulo possui 5mil videos</p>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+      <div id="random_number1" class="carousel slide youtube-carousel"  data-ride="carousel" data-interval="false">
+        <div class="carousel-inner">
+          
+          
+          <div class="video-container item active">
+<video controls crossorigin playsinline poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
+		 <source src="/istockphoto-1586899577-640_adpp_is.mp4" type="video/mp4" size="576">
+		 
+		 <!--
+			<source src="/bootstrap-3-youtube-carousel/dist/istockphoto-1586899577-640_adpp_is.mp4" type="video/mp4" size="720">
+			<source src="/bootstrap-3-youtube-carousel/dist/istockphoto-1586899577-640_adpp_is.mp4" type="video/mp4" size="1080">
+				-->
+
+			<!-- Caption files -->
+			<track kind="captions" label="English" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+					default>
+			<track kind="captions" label="Français" srclang="fr" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
+			<!-- Fallback for browsers that don't support the <video> element -->
+			<a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
+			h
+	</video>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem laborum optio perferendis ab similique autem eligendi beatae ullam deserunt, molestias iure reiciendis, aliquid unde, qui porro quis ratione assumenda nisi.
+	<h1></h1>
+ <div class="carousel-caption">Video 1</div>
+          </div>
+          
+          <div class="video-container item">
+            <div class="youtube-video" id='6MjRVkm9CF0'></div>
+            <div class="carousel-caption">Video 2</div>
+          </div>
+          <div class="video-container item ">
+            <div class="youtube-video" id='R8poo-zCK9g'></div>
+            <div class="carousel-caption">Video 3</div>
+          </div>
+        </div>
+        <div class="controls">
+          <a class="left carousel-control" href="#random_number1" data-slide="prev">
+            <div class="left-button">
+              <div class="glyphicon glyphicon-chevron-left"></div>
+            </div>
+          </a>
+          <a class="right carousel-control" href="#random_number1" data-slide="next">        
+            <div class="right-button">
+              <div class="glyphicon glyphicon-chevron-right"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+<script type="text/javascript">
+  const player = new Plyr('video', { captions: { active: true } });
+
+  // Expose player so it can be used from the console
+  window.player = player;
+</script>
+
+</body>
+</html>
